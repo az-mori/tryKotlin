@@ -8,7 +8,7 @@ abstract class Model(){
     constructor(map:Map<String,Object>):this()
     abstract class Callback<in T>(val succsessCallback:(T)->Unit):APICallback(){
         override fun onResponse(map:Map<String,Object>){
-            succsessCallback(T(map))
+            succsessCallback(T(map)) //compile error 
         }
     }
 }
