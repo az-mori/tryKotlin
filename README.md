@@ -1,1 +1,1 @@
-tryKolin
+https://try.kotlinlang.org/
